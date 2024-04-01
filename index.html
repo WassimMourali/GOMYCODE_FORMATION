@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--link favcion headline logo website-->
+    <link rel="icon" href="img/favicon.PNG">
+
+    <!--link CSS file-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--link tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--link google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!--link fontawsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!--general link-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <title>Wassim Mourali</title>
+
+</head>
+<body class="bg-gradient-to-r from-gray-300 to-gray-800">
+<header>
+    <!-- Navigation bar -->
+    <div class="py-5 bg-gradient-to-r from-gray-300 to-gray-800 border-none fixed-nav flex justify-between items-center px-5 lg:px-20">
+        <img src="img/logo-removebg-preview.png" alt="logo" class="w-[30%] cursor-pointer">
+        <ul class="hidden lg:flex justify-center w-[70%]">
+            <li class="list-none inline-block px-5"><a href="index.html" class="no-underline px-2 text-gray-400 text-[25px] font-[500] hover:text-green-300 hover:rounded-xl hover:shadow-lg hover:shadow-cyan-500">Home</a></li>
+            <li class="list-none inline-block px-5"><a href="#about-section" class="no-underline text-gray-200 px-2 text-[25px] font-[500] hover:text-green-300 hover:rounded-xl hover:shadow-lg hover:shadow-cyan-500">About Me</a></li>
+            <li class="list-none inline-block px-5"><a href="#skills-section" class="no-underline text-gray-200 px-2 text-[25px] font-[500] hover:text-green-300 hover:rounded-xl hover:shadow-lg hover:shadow-cyan-500">Skills</a></li>
+            <li class="list-none inline-block px-5"><a href="#project-section" class="no-underline text-gray-200 px-2 text-[25px] font-[500] hover:text-green-300 hover:rounded-xl hover:shadow-lg hover:shadow-cyan-500">Projects</a></li>
+            <li class="list-none inline-block px-5"><a href="#contact-section" class="no-underline text-gray-200 px-2 text-[25px] font-[500] hover:text-green-300 hover:rounded-xl hover:shadow-lg hover:shadow-cyan-500">Contact</a></li>
+        </ul>
+        
+        <button class="lg:hidden block focus:outline-none">
+            <svg class="w-6 h-6 fill-current text-gray-400" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Headline introduction "about me" -->
+    <div class="flex flex-col lg:flex-row bg-[url('/img/image.jpg')] pt-44 py-20 mt-[10%] lg:mt-0">
+        <img src="img/wassim.png" alt="profil" class="rounded-full lg:ml-44 lg:mr-10 mb-10 lg:mb-0">
+        <div class="text-center lg:text-left lg:w-[70%] px-5 lg:px-0">
+            <h3 class="text-white">HEY I AM</h3>
+            <h1 class="text-teal-300 text-4xl font-extrabold py-4">Wassim Mourali</h1>
+            <h1 class="text-4xl font-[Courier New] py-4">
+                <span class="text-[23px] text-gray-300 font-[600]">I'm </span><span class="inline-block animate-bounce text-teal-400">S</span><span class="animate-pulse text-green-500">oft</span><span class="inline-block animate-bounce text-teal-400">W</span><span class="animate-pulse text-green-500">are</span>  <span class="inline-block animate-bounce text-teal-400">D</span><span class="animate-pulse text-green-500">eveloper</span>
+            </h1>
+            <p class="text-teal-300 text-[20px]">Hello! I'm <span class="font-[800]">Wassim Mourali</span>, a passionate and creative software developer with a strong background in designing and implementing innovative software solutions. I specialize in Web Development.</p>
+            <button class="bg-transparent border border-green-500 p-5 rounded-2xl font-bold text-teal-400 text-[20px] mt-8 hover:bg-green-800 hover:text-yellow-400 hover:shadow-lg hover:shadow-yellow-300"><a href="https://www.linkedin.com/in/wassimmourali" target="_blank">More About Me</a></button>
+        </div>
+    </div>
+</header>
+
+
+
+<div class="fa-3x flex items-center justify-center">
+  <i class="fa fa-angle-down bg-green-300 rounded-full inline-block animate-bounce" aria-hidden="true"></i>
+</div>
+<div class="fa-3x flex items-center justify-center">
+  <i class="fa fa-angle-down bg-green-300 rounded-full inline-block animate-bounce" aria-hidden="true"></i>
+</div>
+
+  <main>
+    <!--projects section-->
+    <div class="pt-40 py-20 mt-[10%] w-full bg-gradient-to-r from-gray-300 to-gray-800" id="project-section">
+      <h1 class="text-3xl font-semibold text-center mb-8">My Portfolio</h1>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-5">
+
+        <!-- Project 1 -->
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" alt="Project 1" class="w-[100%] h-64 bg-center object-cover">
+          <div class="p-6 bg-gray-300">
+            <h2 class="mb-2 text-black text-center font-[roboto] text-[25px] font-bold">Custom Content Management System (CMS)</h2>
+            <p class="text-black text-[18px]">Development of a custom CMS to allow users to manage website content intuitively.
+              Features include article management, page management, user management, media management, etc.
+              Technologies used: PHP, MySQL, HTML, CSS, JavaScript..</p>
+            <a href="#" class="block mt-4 text-center text-blue-500 hover:underline hover:font-bold hover:text-green-500">Read more</a>
+          </div>
+        </div>
+  
+        <!-- Project 2 -->
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://i.pinimg.com/564x/6e/fa/87/6efa87d55f80267b24c8e7d951e61d14.jpg" alt="Project 2" class="w-full h-64 object-cover">
+          <div class="p-6 bg-gray-300">
+            <h2 class="mb-2 text-black text-center font-[roboto] text-[25px] font-bold">Task Tracking Application <br> (TTS)</h2>
+            <p class="text-black text-[18px]">Development of a task tracking application to help users manage their schedules and projects.
+              Features include task creation, assignment of tasks to users, tracking task status, generating reports, etc.
+              Technologies used: React.js, Node.js, MongoDB, CSS.</p>
+            <a href="#" class="block mt-4 text-center text-blue-500 hover:underline hover:font-bold hover:text-green-500">Read more</a>
+          </div>
+        </div>
+  
+        <!-- Project 3 -->
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpogptt7sPAU2jkkec47dSt_5TlFXPOXiqrw&usqp=CAU/400" alt="Project 3" class="w-full h-64 object-cover">
+          <div class="p-6 bg-gray-300">
+            <h2 class="mb-2 text-black text-center font-[roboto] text-[25px] font-bold">Online Learning Platform  <br> (OLP)</h2>
+            <p class="text-black text-[18px]">Creation of an online learning platform for users to take courses and tutorials.
+              Features include user registration, course and lesson management, discussion forum, quizzes, etc.
+              Technologies used: Django (Python framework), PostgreSQL, Bootstrap, JavaScript</p>
+            <a href="#" class="block mt-4 text-center text-blue-500 hover:underline hover:font-bold hover:text-green-500">Read more</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://www.fuseinventory.com/hs-fs/hubfs/Theme2022/images/fuse_inforgraphic_v2.gif?width=800&height=500&name=fuse_inforgraphic_v2.gif" alt="Project 3" class="w-full h-64 object-cover">
+          <div class="p-6 bg-gray-300">
+            <h2 class="mb-2 text-black text-center font-[roboto] text-[25px] font-bold">Inventory Management Application</h2>
+            <p class="text-black text-[18px]">Development of an inventory management application to help businesses track and manage their inventories.
+              Features include product management, supplier management, order management, delivery management, inventory reports, etc.
+              Technologies used: Java, Spring Boot, Hibernate, MySQL</p>
+            <a href="#" class="block mt-4 text-center text-blue-500 hover:underline hover:font-bold hover:text-green-500">Read more</a>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://dxbapps.com/blogimages/ecommerce.gif" alt="Project 3" class="w-full h-64">
+          <div class="p-6 bg-gray-300">
+            <h2 class="mb-2 text-black text-center font-[roboto] text-[25px] font-bold">E-commerce Platform</h2>
+            <p class="text-black text-[18px]">Development of a comprehensive e-commerce platform to enable businesses to sell products online.
+              Features include product catalog management
+              Technologies used: Ruby on Rails (for backend), React.js (for frontend), PostgreSQL (for database), Stripe or PayPal (for payment processing), HTML, CSS, JavaScript.</p>
+            <a href="#" class="block mt-4 text-center text-blue-500 hover:underline hover:font-bold hover:text-green-500">Read more</a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="card bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://appinventiv.com/wp-content/uploads/2024/03/jog_ui.gif" alt="Project 3" class="w-full h-64 object-cover">
+          <div class="p-6 bg-gray-300">
+            <h2 class="mb-2 text-black text-center font-[roboto] text-[25px] font-bold">Fitness Tracking Application</h2>
+            <p class="text-black text-[18px]">Creation of a fitness tracking application to allow users to track their fitness progress.
+              Features include workout recording, tracking burned calories, weight and measurement tracking, health tips, etc.
+              Technologies used: Swift (for iOS), Kotlin (for Android), Firebase (for data storage), SwiftUI / Jetpack Compose (for UI)</p>
+            <a href="#" class="block mt-4 text-center text-blue-500 hover:underline hover:font-bold hover:text-green-500">Read more</a>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+
+    <div class="fa-3x flex items-center justify-center">
+      <i class="fa fa-angle-down bg-green-300 rounded-full inline-block animate-bounce" aria-hidden="true"></i>
+    </div>
+    <div class="fa-3x flex items-center justify-center">
+      <i class="fa fa-angle-down bg-green-300 rounded-full inline-block animate-bounce" aria-hidden="true"></i>
+    </div>
+
+
+    <!--skills section-->
+    <div class="mx-auto px-4 pt-40 py-20 mt-[10%]  bg-gradient-to-r from-gray-300 to-gray-800" id="skills-section">
+      <h1 class="text-3xl font-semibold text-center mb-8">My Skills</h1>
+      
+      <!-- Flexbox layout for skills showcase -->
+      <div class="flex flex-wrap justify-center gap-8">
+          <!-- Skill 1 -->
+          <div class="bg-gray-300 rounded-lg shadow-md overflow-hidden skill-card p-4">
+              <h2 class="text-black text-center font-[roboto] text-[25px] font-bold">Web Development</h2>
+              <p class="text-gray-700">Experience with HTML, CSS, JavaScript, and modern frameworks like React and Vue.js. Proficient in building responsive and dynamic web applications.</p>
+              <img src="https://www.shutterstock.com/image-vector/vector-collection-web-development-shield-260nw-1316601926.jpg" alt="">
+            </div>
+
+          <!-- Skill 2 -->
+          <div class="bg-gray-300 rounded-lg shadow-md overflow-hidden skill-card p-4">
+              <h2 class="text-black text-center font-[roboto] text-[25px] font-bold">Backend Development</h2>
+              <p class="text-gray-700">Strong knowledge of server-side languages such as Node.js, Python, and Java. Experienced in building RESTful APIs and working with databases like MySQL, MongoDB, and PostgreSQL.</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzqCFuIFzj2hPG4AE8cAQYUcElxiTwO2oWbA&usqp=CAU" alt="">
+            </div>
+
+          <!-- Skill 3 -->
+          <div class="bg-gray-300 rounded-lg shadow-md overflow-hidden skill-card p-4">
+              <h2 class="text-black text-center font-[roboto] text-[25px] font-bold">Mobile Development</h2>
+              <p class="text-gray-700">Proficient in developing cross-platform mobile applications using frameworks like React Native and Flutter. Experience in building native iOS and Android apps using Swift and Kotlin.</p>
+          <img src="data:image/png;base64,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" alt="">
+            </div>
+
+          <!-- Skill 4 -->
+          <div class="bg-gray-300 rounded-lg shadow-md overflow-hidden skill-card p-4">
+              <h2 class="text-black text-center font-[roboto] text-[25px] font-bold">Database Management</h2>
+              <p class="text-gray-700">Solid understanding of relational and non-relational databases. Skilled in database design, optimization, and maintenance. Experienced in using ORMs like Sequelize and Mongoose.</p>
+          <img src="data:image/png;base64,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" alt="">
+            </div>
+
+          <!-- Skill 5 -->
+          <div class="bg-gray-300 rounded-lg shadow-md overflow-hidden skill-card p-4">
+              <h2 class="text-black text-center font-[roboto] text-[25px] font-bold">Version Control</h2>
+              <p class="text-gray-700">Proficient in using Git for version control. Experience with Git workflows like Gitflow and understanding of concepts like branching, merging, and rebasing.</p>
+          <img src="data:image/png;base64,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" alt="">
+            </div>
+      </div>
+  </div>
+
+
+  <div class="fa-3x flex items-center justify-center pt-9">
+    <i class="fa fa-angle-down bg-green-300 rounded-full inline-block animate-bounce" aria-hidden="true"></i>
+  </div>
+  <div class="fa-3x flex items-center justify-center">
+    <i class="fa fa-angle-down bg-green-300 rounded-full inline-block animate-bounce" aria-hidden="true"></i>
+  </div>
+
+
+    <!--contact section-->
+    <div class="max-w-md mx-auto bg-gray-300 rounded-lg shadow-md overflow-hidden pt-40" id="contact-section">
+      <div class="p-6">
+        <h2 class="text-black text-center font-[roboto] text-[25px] font-bold">Contact Me</h2>
+        <form>
+          <div class="mb-4">
+            <label for="name" class="block text-gray-700 font-medium">Name</label>
+            <input type="text" id="name" name="name" class="mt-1 p-2 w-full border-green-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500">
+          </div>
+          <div class="mb-4">
+            <label for="email" class="block text-gray-700 font-medium">Email</label>
+            <input type="email" id="email" name="email" class="mt-1 p-2 w-full border-green-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500">
+          </div>
+          <div class="mb-4">
+            <label for="message" class="block text-gray-700 font-medium">Message</label>
+            <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full border-green-300 rounded-md focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="inline-block bg-indigo-500 text-white py-2 px-4 rounded-md transition duration-300 ease-in-out hover:bg-indigo-600">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+</main>
+
+<footer class="pt-44">
+  <p class="text-gray-600y-800 text-center">&copy; 2024 Portfolio Wassim Mourali</p>
+  <ul class="footer-icons">
+    <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play fa-4x"></i></a></li>
+    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-4x"></i></a></li>
+    <li><a href="https://github.com/" target="_blank"><i class="fa fa-github fa-4x"></i></a></li>
+    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-4x"></i></a></li>
+  </ul>
+</footer>
+</body>
+</html>
